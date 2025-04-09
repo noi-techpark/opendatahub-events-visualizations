@@ -45,9 +45,9 @@ Noi Communication can insert Publishers for
 
 ### Special Rules
 `Comment: x` Rule:  
-TO EXPLAIN HERE
+TO EXPLAIN HERE  
 `eventgrouping` Parameter:  
-TO EXPLAIN HERE
+TO EXPLAIN HERE  
 
 ### Videowall
 
