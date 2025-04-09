@@ -13,6 +13,8 @@ This webcomponents are used by
 
 Eurac is using this webcomponent (events-today-eurac)[https://github.com/noi-techpark/webcomp-events-today.git]
 
+This Webcomponent filters by default for `eventlocation=EC`.  
+  
 The Events of Eurac are inserted with their EBMS MeetingManagement Platform and syncronized every 15 Minutes into Open Data Hub.  
 Eurac has two fields to activate/deactivate Events  
 `Display1` --> Videowall Reception EURAC --> `PublishedOn: eurac-videowall` is assigned  
@@ -26,7 +28,8 @@ The Videowall in the Reception is AllRooms.html it shows only PublishedOn = `eur
 
 ### Seminarrooms
 
-All other html files are Videowalls in front of rooms it shows only PublishedOn = `eurac-seminarroom`
+All other html files are Videowalls in front of rooms it shows only PublishedOn = `eurac-seminarroom`  
+Every room has to display only the Events which are into this rooms, for this the `room` parameter filter is set in the webcomponent according to the roomname.  
 
 ## NOI 
 
@@ -43,11 +46,6 @@ Noi Communication can insert Publishers for
 `noi.bz.it` --> NOI Website active  
 `noi-communityapp` --> NOI CommunityApp active  
 
-### Special Rules
-`Comment: x` Rule:  
-TO EXPLAIN HERE  
-`eventgrouping` Parameter:  
-TO EXPLAIN HERE  
 
 ### Videowall
 
@@ -62,6 +60,12 @@ The api used is https://api.epaper.opendatahub.com/swagger-ui.html
 
 NOI BRUNECK is using this webcomponent (events-today-noi)[https://github.com/noi-techpark/webcomp-events-today.git]
   
-The Event Location Parameter is set to `eventlocation=NOI Bruneck`  
+The Event Location Parameter is set to `eventlocation=NOIBRUNECK`  
 
 `PublishedOn: nobis` --> indicates if the Event is active on Nobis Videowall
+
+## Special Rules
+`Comment: x` Rule:  
+TO EXPLAIN HERE  
+`eventgrouping` Parameter:  
+The Eurac Webcomponent (events-today-eurac) has per default `eventgrouping=false` set on its request.
