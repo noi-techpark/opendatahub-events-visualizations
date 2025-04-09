@@ -1,8 +1,8 @@
 # opendatahub-events-visualizations
 
 Thir repository collects HTML files which have preconfigured views of the Webcomponents
-(events-today-noi)[https://github.com/noi-techpark/webcomp-events-today-noi.git]
-(events-today-eurac)[https://github.com/noi-techpark/webcomp-events-today.git]
+[events-today-noi](https://github.com/noi-techpark/webcomp-events-today-noi.git)
+[events-today-eurac](https://github.com/noi-techpark/webcomp-events-today.git)
   
 This webcomponents are used by 
 - NOI to display Events
@@ -11,7 +11,7 @@ This webcomponents are used by
 
 ## Eurac
 
-Eurac is using this webcomponent (events-today-eurac)[https://github.com/noi-techpark/webcomp-events-today.git]
+Eurac is using this webcomponent [events-today-eurac](https://github.com/noi-techpark/webcomp-events-today.git)
 
 This Webcomponent filters by default for `eventlocation=EC`.  
   
@@ -33,7 +33,7 @@ Every room has to display only the Events which are into this rooms, for this th
 
 ## NOI 
 
-NOI is using this webcomponent (events-today-noi)[https://github.com/noi-techpark/webcomp-events-today.git]
+NOI is using this webcomponent [events-today-noi](https://github.com/noi-techpark/webcomp-events-today.git)
 The Event Location Parameter is set to `eventlocation=NOI`  
   
 The Events of NOI are inserted with their EBMS MeetingManagement Platform and syncronized every 15 Minutes into Open Data Hub.  
@@ -58,7 +58,7 @@ The api used is https://api.epaper.opendatahub.com/swagger-ui.html
 
 ## NOI Bruneck / Nobis
 
-NOI BRUNECK is using this webcomponent (events-today-noi)[https://github.com/noi-techpark/webcomp-events-today.git]
+NOI BRUNECK is using this webcomponent [events-today-noi](https://github.com/noi-techpark/webcomp-events-today.git)
   
 The Event Location Parameter is set to `eventlocation=NOIBRUNECK`  
 
