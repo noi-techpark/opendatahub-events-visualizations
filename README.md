@@ -1,3 +1,5 @@
+[![REUSE Compliance](https://github.com/noi-techpark/opendatahub-events-visualizations/actions/workflows/reuse-lint.yml/badge.svg)](https://github.com/noi-techpark/opendatahub-docs/wiki/REUSE#badges)
+
 # opendatahub-events-visualizations
 
 Thir repository collects HTML files which have preconfigured views of the Webcomponents
